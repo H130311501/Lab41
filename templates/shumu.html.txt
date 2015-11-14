@@ -1,0 +1,13 @@
+<html>
+<head>
+        <title>shumu</title>
+</head>
+<body>
+<ul>
+{% for book in books%}
+         <li>{{book.Title}}</li>
+{%empty%}
+           <li>抱歉，目前还没有图书。</li>
+{%endfor%}
+</body>
+</html>

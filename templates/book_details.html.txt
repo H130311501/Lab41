@@ -1,0 +1,15 @@
+<html>
+<head>
+        <title>book_details</title>
+</head>
+<body>
+       <p>the ISDN of the book is£º {{book.ISDN}}</p>
+       <p>the title of the book is£º {{book.Title}}</p>
+       <p>the authorname of the book is£º {{book.Authorname}}</p>
+       <p>the authorid of the book is£º {{book.AuthorID}}</p>
+       <p>the publisher of the book is£º {{book.Publisher}}</p>
+       <p>the publication of the book is£º {{book.Publication}}
+       <p>the price of the book is£º {{book.Price}}</p>
+
+</body>
+</html>

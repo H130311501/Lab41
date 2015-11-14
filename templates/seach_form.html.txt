@@ -1,0 +1,11 @@
+<html>
+<head>
+        <title>Seach</title>
+</head>
+<body>
+         <form action="/seach/" method="get">
+          <input type="text" name="q">
+          <input type="submit" value="Seach">
+          </form>
+</body>
+</html>
